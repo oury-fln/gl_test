@@ -43,9 +43,10 @@ void main()
 	glutReshapeFunc(ghReshape);
 	//设置一个定时器回调函数
 	glutTimerFunc(33,ghTimerFuc,1);
+	glutMouseFunc(&OnMouse);  //注册鼠标事件
 
 	glEnable(GL_CULL_FACE);  
-	glPolygonMode(GL_FRONT, GL_LINE);  
+	//glPolygonMode(GL_FRONT, GL_LINE);  
 
 
 	//初始化操作

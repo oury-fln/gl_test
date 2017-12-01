@@ -15,6 +15,7 @@ static float r9 = 1.0f, g9 = 0.5f, b9 = 0.0f; //orange
 static float r10 = 1.0f, g10 = 0.5f, b10 = 0.5f; //pink
 static float r11 = 0.0f, g11 = 0.5f, b11 = 0.5f; //dark blue
 static float r12 = 0.5f, g12 = 1.0f, b12 = 0.5f; //light green
+static float r99 = 0.75f, g99 = 0.75f, b99 = 0.75f; //light gray--selected stair
 
 
 #endif

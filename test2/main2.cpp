@@ -26,7 +26,7 @@ void myDisplay(void)
 	glFlush();
 }  
 
-void OnMouse(int button,int state,int x,int y)
+void OnMouse2(int button,int state,int x,int y)
 {
 	if(button==GLUT_LEFT_BUTTON&&state==GLUT_DOWN)
 	{
@@ -62,7 +62,7 @@ int main2(int argc, char *argv[])
 	glutInitWindowSize(400, 400);    
 	glutCreateWindow("OpenGL"); 
 	InitEnvironment();   //初始化
-	glutMouseFunc(&OnMouse);  //注册鼠标事件
+	glutMouseFunc(&OnMouse2);  //注册鼠标事件
 	glutDisplayFunc(&myDisplay);   //回调函数 
 	glutMainLoop();    //持续显示，当窗口改变会重新绘制图形
 	return 0;    
